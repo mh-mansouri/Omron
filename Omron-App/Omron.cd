@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Omron.Omron.OmronException" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Omron.Omron.OmronPLC" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>EeERgIAMRRBAsaIAAEQoCIBsGTAhCYYQAoAAyYWAgrE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Omron.Omron.Omron_Error_LowerByte" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Omron.Omron.Omron_Error_MiddleByte" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAgAABAAAAAAAAAAAAAAAAAAAAAAgAAAEAABAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Omron.Omron.Omron_Error_UpperByte" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>DAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Omron.Omron.Omron_Status" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAEAAABIAAAAAAAAQAAQAAAABQCEAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="Omron.Omron.Omron_Command_Header" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>ACGCIgiAQIKRAEgAAAQBCwIgJJwAAAQAAAoQiggBRAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Command_Header_Read" Collapsed="true">
+    <Position X="2.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAECAAAAAAABAAAAAAABAQAgAAAAAAAAAAAAAAAAQAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Command_Header_Write" Collapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAIgAAAAAAAEAAAAAAAAAABAQAAAAAAAAAAAAABAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Command_SubHeader" Collapsed="true">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAACAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Duplex_System" Collapsed="true">
+    <Position X="9.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_B0_To_B3_Remote_IO_Error" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_C04_to_04_IO_Bus_Error" Collapsed="true">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_Data_From_IO_Bus" Collapsed="true">
+    <Position X="4" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAEAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_Duplex_Bus_Error_C2000H_Only_Intelligent_IO_Error_C200H_HS_only" Collapsed="true">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_E0_IO_Setting_Error" Collapsed="true">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_E1_IO_Unit_Over" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F0_End_Instruction_Missing" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F1_Memory_Error" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F2_Jump_Instruction_Error" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F3_Program_Error" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAgAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F4_RTI_Instruction_Error" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F7_Battery_Failure" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F7_IO_Verify_Error" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_F8_Cycle_Timer_Over" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_FAL" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_FALS" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_Diagnosis" Collapsed="true">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_Host_Link_Unit_Transmission_Error" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_PC_Link_Error" Collapsed="true">
+    <Position X="0.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Error_Unit_Number" Collapsed="true">
+    <Position X="2.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAgHcAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Forced_Set_Reset" Collapsed="true">
+    <Position X="4" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_PLC_Mode" Collapsed="true">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAI=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Program_Area" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Program_Area_Size" Collapsed="true">
+    <Position X="9.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAgAAAAgAAAAAAAQAAAAAAACAABAAAAAAAAAAAGAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Remote_IO_Waiting" Collapsed="true">
+    <Position X="0.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Response_Code" Collapsed="true">
+    <Position X="2.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AEAACyAAAAAAiAAQAAggAAgBAhAABCQARBAAAEAIBFA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Data_Type" Collapsed="true">
+    <Position X="7.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAAAQAAAACAAAAAAACABAACAiAAAAAAAAAACAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_StartSwitch" Collapsed="true">
+    <Position X="4" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_Status_Mode" Collapsed="true">
+    <Position X="5.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Omron.Omron.Omron_TransitionType" Collapsed="true">
+    <Position X="7.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Omron.vb</FileName>
+      <HashCode>AAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Enum>
+</ClassDiagram>
